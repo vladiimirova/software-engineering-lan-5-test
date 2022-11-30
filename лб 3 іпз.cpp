@@ -47,7 +47,7 @@ int calculate(int n, int a, int b, int h) // ця функція обчислю�
         for (int l = a; l <= b; l += h)
         {
             for (int i = 0; i <= n - 1; i++)
-                y += (l) / i;
+                y += ((l) / i)+500;
         }
         return y;
     }
@@ -63,7 +63,7 @@ int calculate(int n, int a, int b, int h) // ця функція обчислю�
                 int k = 0;
                 for (int j = 1; j < n; j++)
                 {
-                    k = k + (l - i + j);
+                    k = k + (l - i + j)+ 99;
                 }
                 y += k;
             }
